@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import ReducerComponent from './components/ReducerComponent';
 import CrudComponent from './components/CrudComponent';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <ReducerComponent /> */}
       <CrudComponent />
     </div>
